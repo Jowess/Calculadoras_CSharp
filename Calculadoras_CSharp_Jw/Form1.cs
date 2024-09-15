@@ -56,5 +56,20 @@ namespace Calculadoras_CSharp_Jw
         {
 
         }
+
+        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculadora_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

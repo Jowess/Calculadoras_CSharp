@@ -116,5 +116,47 @@
   <ItemGroup>
     <None Include="Resources\exit_icon_143601.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_sport_walk_icon_1333621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_sport_walk_icon_1333622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\357-exercise-i_102408.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petrol_can_icon_227553.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_sport_walk_icon_1333623.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\357-exercise-i_1024081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\357-exercise-i_1024082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petrol_can_icon_2275531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petrol_can_icon_2275532.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment_pay_check_icon_1432781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freelance_freelancer_occupation_job_worker_icon_1422641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins_icon_1294791.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_2266131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

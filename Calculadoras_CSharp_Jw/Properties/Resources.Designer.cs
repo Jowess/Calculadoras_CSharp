@@ -73,6 +73,36 @@ namespace Calculadoras_CSharp_Jw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _357_exercise_i_102408 {
+            get {
+                object obj = ResourceManager.GetObject("357-exercise-i_102408", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _357_exercise_i_1024081 {
+            get {
+                object obj = ResourceManager.GetObject("357-exercise-i_1024081", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _357_exercise_i_1024082 {
+            get {
+                object obj = ResourceManager.GetObject("357-exercise-i_1024082", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _42568fuelpump_98960 {
             get {
                 object obj = ResourceManager.GetObject("42568fuelpump_98960", resourceCulture);
@@ -133,9 +163,49 @@ namespace Calculadoras_CSharp_Jw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coins_icon_1294791 {
+            get {
+                object obj = ResourceManager.GetObject("coins_icon_1294791", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exercise_sport_walk_icon_133362 {
             get {
                 object obj = ResourceManager.GetObject("exercise_sport_walk_icon_133362", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exercise_sport_walk_icon_1333621 {
+            get {
+                object obj = ResourceManager.GetObject("exercise_sport_walk_icon_1333621", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exercise_sport_walk_icon_1333622 {
+            get {
+                object obj = ResourceManager.GetObject("exercise_sport_walk_icon_1333622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exercise_sport_walk_icon_1333623 {
+            get {
+                object obj = ResourceManager.GetObject("exercise_sport_walk_icon_1333623", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +233,16 @@ namespace Calculadoras_CSharp_Jw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap freelance_freelancer_occupation_job_worker_icon_1422641 {
+            get {
+                object obj = ResourceManager.GetObject("freelance_freelancer_occupation_job_worker_icon_1422641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap payment_pay_check_icon_143278 {
             get {
                 object obj = ResourceManager.GetObject("payment_pay_check_icon_143278", resourceCulture);
@@ -173,9 +253,69 @@ namespace Calculadoras_CSharp_Jw.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap payment_pay_check_icon_1432781 {
+            get {
+                object obj = ResourceManager.GetObject("payment_pay_check_icon_1432781", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap petrol_can_icon_227553 {
+            get {
+                object obj = ResourceManager.GetObject("petrol_can_icon_227553", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap petrol_can_icon_2275531 {
+            get {
+                object obj = ResourceManager.GetObject("petrol_can_icon_2275531", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap petrol_can_icon_2275532 {
+            get {
+                object obj = ResourceManager.GetObject("petrol_can_icon_2275532", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap water_climate_forecast_weather_sea_ocean_low_tide_icon_226613 {
             get {
                 object obj = ResourceManager.GetObject("water_climate_forecast_weather_sea_ocean_low_tide_icon_226613", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap water_climate_forecast_weather_sea_ocean_low_tide_icon_2266131 {
+            get {
+                object obj = ResourceManager.GetObject("water_climate_forecast_weather_sea_ocean_low_tide_icon_2266131", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132 {
+            get {
+                object obj = ResourceManager.GetObject("water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

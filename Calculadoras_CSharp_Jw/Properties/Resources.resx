@@ -118,40 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Calculator_Icon_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculator_Icon_icon-icons.com_764301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_icon_143601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_icon_143601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petrol_can_icon_227553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petrol_can_icon_227553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="357-exercise-i_1024082" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\357-exercise-i_1024082.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_letter_letters_alphabet_icon_208972" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_letter_letters_alphabet_icon_208972.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freelance_freelancer_occupation_job_worker_icon_1422641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freelance_freelancer_occupation_job_worker_icon_1422641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water_climate_forecast_weather_sea_ocean_low_tide_icon_2266131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_2266131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water_climate_forecast_weather_sea_ocean_low_tide_icon_226613" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_226613.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="357-exercise-i_102408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\357-exercise-i_102408.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freelance_freelancer_occupation_job_worker_icon_142264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freelance_freelancer_occupation_job_worker_icon_142264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exercise_sport_walk_icon_133362" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exercise_sport_walk_icon_133362.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculator_Icon_icon-icons.com_76430" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculator_Icon_icon-icons.com_76430.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petrol_can_icon_2275532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petrol_can_icon_2275532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_18846(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator_18846(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exercise_sport_walk_icon_1333621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exercise_sport_walk_icon_1333621.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1492620343-2money_83473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1492620343-2money_83473.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coins_icon_1294791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coins_icon_1294791.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exercise_sport_walk_icon_1333623" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exercise_sport_walk_icon_1333623.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42568fuelpump_98960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42568fuelpump_98960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="coins_icon_129479" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coins_icon_129479.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="payment_pay_check_icon_143278" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\payment_pay_check_icon_143278.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="freelance_freelancer_occupation_job_worker_icon_142264" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\freelance_freelancer_occupation_job_worker_icon_142264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="petrol_can_icon_2275531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petrol_can_icon_2275531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1492620343-2money_83473" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1492620343-2money_83473.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="payment_pay_check_icon_1432781" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment_pay_check_icon_1432781.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calculator_18846(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calculator_18846(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exercise_sport_walk_icon_1333622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exercise_sport_walk_icon_1333622.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exercise_sport_walk_icon_133362" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exercise_sport_walk_icon_133362.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="357-exercise-i_1024081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\357-exercise-i_1024081.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Calculator_Icon_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Calculator_Icon_icon-icons.com_764301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Calculator_Icon_icon-icons.com_76430" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Calculator_Icon_icon-icons.com_76430.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="42568fuelpump_98960" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\42568fuelpump_98960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c_letter_letters_alphabet_icon_208972" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_letter_letters_alphabet_icon_208972.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="water_climate_forecast_weather_sea_ocean_low_tide_icon_226613" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_226613.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exit_icon_143601" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit_icon_143601.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

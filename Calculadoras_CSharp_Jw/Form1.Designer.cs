@@ -31,31 +31,19 @@ namespace Calculadoras_CSharp_Jw
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
             this.pnlBarraRolagem = new System.Windows.Forms.Panel();
-            this.flpMenu = new System.Windows.Forms.FlowLayoutPanel();
-            this.pnlCalculadora = new System.Windows.Forms.Panel();
-            this.pnlIMC = new System.Windows.Forms.Panel();
-            this.pnlCombustivel = new System.Windows.Forms.Panel();
-            this.pnlFolhaPagamento = new System.Windows.Forms.Panel();
-            this.pnlTaxaFrequencia = new System.Windows.Forms.Panel();
-            this.pnlConversor = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.flpMenu = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnCalculadora = new System.Windows.Forms.Button();
             this.btnIMC = new System.Windows.Forms.Button();
             this.btnCombustivel = new System.Windows.Forms.Button();
             this.btnFolhaPagamento = new System.Windows.Forms.Button();
             this.btnTaxaFrequencia = new System.Windows.Forms.Button();
-            this.btnConversorMoedas = new System.Windows.Forms.Button();
-            this.btnConsumoAgua = new System.Windows.Forms.Button();
+            this.btnConversor = new System.Windows.Forms.Button();
+            this.btnAgua = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnCalculadora = new System.Windows.Forms.Button();
             this.pnlBarraRolagem.SuspendLayout();
             this.flpMenu.SuspendLayout();
-            this.pnlCalculadora.SuspendLayout();
-            this.pnlIMC.SuspendLayout();
-            this.pnlCombustivel.SuspendLayout();
-            this.pnlFolhaPagamento.SuspendLayout();
-            this.pnlTaxaFrequencia.SuspendLayout();
-            this.pnlConversor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,176 +53,172 @@ namespace Calculadoras_CSharp_Jw
             this.pnlBarraRolagem.Controls.Add(this.btnSair);
             this.pnlBarraRolagem.Controls.Add(this.pictureBox1);
             this.pnlBarraRolagem.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlBarraRolagem.Location = new System.Drawing.Point(643, 0);
+            this.pnlBarraRolagem.Location = new System.Drawing.Point(857, 0);
+            this.pnlBarraRolagem.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBarraRolagem.Name = "pnlBarraRolagem";
-            this.pnlBarraRolagem.Size = new System.Drawing.Size(141, 645);
+            this.pnlBarraRolagem.Size = new System.Drawing.Size(188, 799);
             this.pnlBarraRolagem.TabIndex = 0;
             this.pnlBarraRolagem.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarraRolagem_Paint);
-            // 
-            // flpMenu
-            // 
-            this.flpMenu.AutoScroll = true;
-            this.flpMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flpMenu.Controls.Add(this.pnlCalculadora);
-            this.flpMenu.Controls.Add(this.pnlIMC);
-            this.flpMenu.Controls.Add(this.pnlCombustivel);
-            this.flpMenu.Controls.Add(this.btnFolhaPagamento);
-            this.flpMenu.Controls.Add(this.pnlFolhaPagamento);
-            this.flpMenu.Controls.Add(this.pnlTaxaFrequencia);
-            this.flpMenu.Controls.Add(this.pnlConversor);
-            this.flpMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpMenu.Location = new System.Drawing.Point(0, 0);
-            this.flpMenu.Name = "flpMenu";
-            this.flpMenu.Size = new System.Drawing.Size(643, 645);
-            this.flpMenu.TabIndex = 1;
-            this.flpMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
-            // 
-            // pnlCalculadora
-            // 
-            this.pnlCalculadora.Controls.Add(this.btnCalculadora);
-            this.pnlCalculadora.Location = new System.Drawing.Point(3, 3);
-            this.pnlCalculadora.Name = "pnlCalculadora";
-            this.pnlCalculadora.Size = new System.Drawing.Size(202, 315);
-            this.pnlCalculadora.TabIndex = 0;
-            // 
-            // pnlIMC
-            // 
-            this.pnlIMC.Controls.Add(this.btnIMC);
-            this.pnlIMC.Location = new System.Drawing.Point(211, 3);
-            this.pnlIMC.Name = "pnlIMC";
-            this.pnlIMC.Size = new System.Drawing.Size(202, 315);
-            this.pnlIMC.TabIndex = 1;
-            // 
-            // pnlCombustivel
-            // 
-            this.pnlCombustivel.Controls.Add(this.btnCombustivel);
-            this.pnlCombustivel.Location = new System.Drawing.Point(419, 3);
-            this.pnlCombustivel.Name = "pnlCombustivel";
-            this.pnlCombustivel.Size = new System.Drawing.Size(202, 315);
-            this.pnlCombustivel.TabIndex = 3;
-            // 
-            // pnlFolhaPagamento
-            // 
-            this.pnlFolhaPagamento.Controls.Add(this.btnTaxaFrequencia);
-            this.pnlFolhaPagamento.Location = new System.Drawing.Point(211, 324);
-            this.pnlFolhaPagamento.Name = "pnlFolhaPagamento";
-            this.pnlFolhaPagamento.Size = new System.Drawing.Size(202, 315);
-            this.pnlFolhaPagamento.TabIndex = 2;
-            // 
-            // pnlTaxaFrequencia
-            // 
-            this.pnlTaxaFrequencia.Controls.Add(this.btnConversorMoedas);
-            this.pnlTaxaFrequencia.Location = new System.Drawing.Point(419, 324);
-            this.pnlTaxaFrequencia.Name = "pnlTaxaFrequencia";
-            this.pnlTaxaFrequencia.Size = new System.Drawing.Size(202, 315);
-            this.pnlTaxaFrequencia.TabIndex = 5;
-            // 
-            // pnlConversor
-            // 
-            this.pnlConversor.Controls.Add(this.btnConsumoAgua);
-            this.pnlConversor.Location = new System.Drawing.Point(3, 645);
-            this.pnlConversor.Name = "pnlConversor";
-            this.pnlConversor.Size = new System.Drawing.Size(202, 315);
-            this.pnlConversor.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(4, 242);
+            this.label1.Location = new System.Drawing.Point(4, 298);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 20);
+            this.label1.Size = new System.Drawing.Size(167, 25);
             this.label1.TabIndex = 7;
             this.label1.Text = "Seja Bem Vindo";
             // 
+            // flpMenu
+            // 
+            this.flpMenu.AutoScroll = true;
+            this.flpMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.flpMenu.Controls.Add(this.btnCalculadora);
+            this.flpMenu.Controls.Add(this.btnIMC);
+            this.flpMenu.Controls.Add(this.btnCombustivel);
+            this.flpMenu.Controls.Add(this.btnFolhaPagamento);
+            this.flpMenu.Controls.Add(this.btnTaxaFrequencia);
+            this.flpMenu.Controls.Add(this.btnConversor);
+            this.flpMenu.Controls.Add(this.btnAgua);
+            this.flpMenu.Location = new System.Drawing.Point(13, 46);
+            this.flpMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.flpMenu.Name = "flpMenu";
+            this.flpMenu.Size = new System.Drawing.Size(823, 717);
+            this.flpMenu.TabIndex = 1;
+            this.flpMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // btnCalculadora
+            // 
+            this.btnCalculadora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnCalculadora.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCalculadora.BackgroundImage")));
+            this.btnCalculadora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalculadora.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculadora.ForeColor = System.Drawing.Color.White;
+            this.btnCalculadora.Location = new System.Drawing.Point(4, 4);
+            this.btnCalculadora.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCalculadora.Name = "btnCalculadora";
+            this.btnCalculadora.Size = new System.Drawing.Size(256, 311);
+            this.btnCalculadora.TabIndex = 5;
+            this.btnCalculadora.Text = "Calculadora";
+            this.btnCalculadora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCalculadora.UseVisualStyleBackColor = false;
+            // 
             // btnIMC
             // 
-            this.btnIMC.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.exercise_sport_walk_icon_133362;
+            this.btnIMC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnIMC.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources._357_exercise_i_1024082;
             this.btnIMC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnIMC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIMC.Location = new System.Drawing.Point(0, 3);
+            this.btnIMC.ForeColor = System.Drawing.Color.White;
+            this.btnIMC.Location = new System.Drawing.Point(268, 4);
+            this.btnIMC.Margin = new System.Windows.Forms.Padding(4);
             this.btnIMC.Name = "btnIMC";
-            this.btnIMC.Size = new System.Drawing.Size(202, 315);
-            this.btnIMC.TabIndex = 1;
+            this.btnIMC.Size = new System.Drawing.Size(256, 306);
+            this.btnIMC.TabIndex = 6;
             this.btnIMC.Text = "IMC";
             this.btnIMC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnIMC.UseVisualStyleBackColor = true;
+            this.btnIMC.UseVisualStyleBackColor = false;
             // 
             // btnCombustivel
             // 
-            this.btnCombustivel.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources._42568fuelpump_98960;
+            this.btnCombustivel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnCombustivel.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.petrol_can_icon_2275532;
             this.btnCombustivel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCombustivel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCombustivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCombustivel.Location = new System.Drawing.Point(0, 3);
+            this.btnCombustivel.ForeColor = System.Drawing.Color.White;
+            this.btnCombustivel.Location = new System.Drawing.Point(532, 4);
+            this.btnCombustivel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCombustivel.Name = "btnCombustivel";
-            this.btnCombustivel.Size = new System.Drawing.Size(202, 315);
-            this.btnCombustivel.TabIndex = 2;
+            this.btnCombustivel.Size = new System.Drawing.Size(260, 306);
+            this.btnCombustivel.TabIndex = 7;
             this.btnCombustivel.Text = "Combustivel";
             this.btnCombustivel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCombustivel.UseVisualStyleBackColor = true;
+            this.btnCombustivel.UseVisualStyleBackColor = false;
             // 
             // btnFolhaPagamento
             // 
-            this.btnFolhaPagamento.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.payment_pay_check_icon_143278;
+            this.btnFolhaPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnFolhaPagamento.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.payment_pay_check_icon_1432781;
             this.btnFolhaPagamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnFolhaPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFolhaPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFolhaPagamento.Location = new System.Drawing.Point(3, 324);
+            this.btnFolhaPagamento.ForeColor = System.Drawing.Color.White;
+            this.btnFolhaPagamento.Location = new System.Drawing.Point(4, 323);
+            this.btnFolhaPagamento.Margin = new System.Windows.Forms.Padding(4);
             this.btnFolhaPagamento.Name = "btnFolhaPagamento";
-            this.btnFolhaPagamento.Size = new System.Drawing.Size(202, 315);
-            this.btnFolhaPagamento.TabIndex = 3;
+            this.btnFolhaPagamento.Size = new System.Drawing.Size(256, 311);
+            this.btnFolhaPagamento.TabIndex = 8;
             this.btnFolhaPagamento.Text = "Folha de Pagamento";
             this.btnFolhaPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnFolhaPagamento.UseVisualStyleBackColor = true;
+            this.btnFolhaPagamento.UseVisualStyleBackColor = false;
             // 
             // btnTaxaFrequencia
             // 
-            this.btnTaxaFrequencia.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.freelance_freelancer_occupation_job_worker_icon_142264;
+            this.btnTaxaFrequencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnTaxaFrequencia.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.freelance_freelancer_occupation_job_worker_icon_1422641;
             this.btnTaxaFrequencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTaxaFrequencia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTaxaFrequencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaxaFrequencia.Location = new System.Drawing.Point(0, 3);
+            this.btnTaxaFrequencia.ForeColor = System.Drawing.Color.White;
+            this.btnTaxaFrequencia.Location = new System.Drawing.Point(268, 323);
+            this.btnTaxaFrequencia.Margin = new System.Windows.Forms.Padding(4);
             this.btnTaxaFrequencia.Name = "btnTaxaFrequencia";
-            this.btnTaxaFrequencia.Size = new System.Drawing.Size(202, 315);
-            this.btnTaxaFrequencia.TabIndex = 4;
+            this.btnTaxaFrequencia.Size = new System.Drawing.Size(256, 311);
+            this.btnTaxaFrequencia.TabIndex = 9;
             this.btnTaxaFrequencia.Text = "Taxa de Frequência";
             this.btnTaxaFrequencia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnTaxaFrequencia.UseVisualStyleBackColor = true;
+            this.btnTaxaFrequencia.UseVisualStyleBackColor = false;
             // 
-            // btnConversorMoedas
+            // btnConversor
             // 
-            this.btnConversorMoedas.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.coins_icon_129479;
-            this.btnConversorMoedas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnConversorMoedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConversorMoedas.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnConversorMoedas.Location = new System.Drawing.Point(0, 3);
-            this.btnConversorMoedas.Name = "btnConversorMoedas";
-            this.btnConversorMoedas.Size = new System.Drawing.Size(202, 315);
-            this.btnConversorMoedas.TabIndex = 5;
-            this.btnConversorMoedas.Text = "Conversor de Moedas";
-            this.btnConversorMoedas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConversorMoedas.UseVisualStyleBackColor = true;
+            this.btnConversor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnConversor.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.coins_icon_1294791;
+            this.btnConversor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConversor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConversor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConversor.ForeColor = System.Drawing.Color.White;
+            this.btnConversor.Location = new System.Drawing.Point(532, 323);
+            this.btnConversor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConversor.Name = "btnConversor";
+            this.btnConversor.Size = new System.Drawing.Size(260, 311);
+            this.btnConversor.TabIndex = 10;
+            this.btnConversor.Text = "Conversor de Moeda";
+            this.btnConversor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnConversor.UseVisualStyleBackColor = false;
             // 
-            // btnConsumoAgua
+            // btnAgua
             // 
-            this.btnConsumoAgua.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.water_climate_forecast_weather_sea_ocean_low_tide_icon_226613;
-            this.btnConsumoAgua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnConsumoAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsumoAgua.Location = new System.Drawing.Point(0, 3);
-            this.btnConsumoAgua.Name = "btnConsumoAgua";
-            this.btnConsumoAgua.Size = new System.Drawing.Size(202, 315);
-            this.btnConsumoAgua.TabIndex = 6;
-            this.btnConsumoAgua.Text = "Consumo de Àgua";
-            this.btnConsumoAgua.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConsumoAgua.UseVisualStyleBackColor = true;
+            this.btnAgua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnAgua.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.water_climate_forecast_weather_sea_ocean_low_tide_icon_2266132;
+            this.btnAgua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAgua.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgua.ForeColor = System.Drawing.Color.White;
+            this.btnAgua.Location = new System.Drawing.Point(4, 642);
+            this.btnAgua.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgua.Name = "btnAgua";
+            this.btnAgua.Size = new System.Drawing.Size(256, 311);
+            this.btnAgua.TabIndex = 11;
+            this.btnAgua.Text = "Folha de Pagamento";
+            this.btnAgua.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAgua.UseVisualStyleBackColor = false;
             // 
             // btnSair
             // 
             this.btnSair.BackColor = System.Drawing.Color.White;
             this.btnSair.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.exit_icon_143601;
             this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSair.Location = new System.Drawing.Point(13, 546);
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSair.Location = new System.Drawing.Point(43, 680);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(116, 87);
+            this.btnSair.Size = new System.Drawing.Size(104, 60);
             this.btnSair.TabIndex = 5;
             this.btnSair.UseVisualStyleBackColor = false;
             // 
@@ -243,38 +227,26 @@ namespace Calculadoras_CSharp_Jw
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.ErrorImage = global::Calculadoras_CSharp_Jw.Properties.Resources.Calculator_Icon_icon_icons_com_76430;
             this.pictureBox1.Image = global::Calculadoras_CSharp_Jw.Properties.Resources.c_letter_letters_alphabet_icon_208972;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 145);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(110, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(147, 134);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnCalculadora
-            // 
-            this.btnCalculadora.BackColor = System.Drawing.SystemColors.GrayText;
-            this.btnCalculadora.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCalculadora.BackgroundImage")));
-            this.btnCalculadora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculadora.Location = new System.Drawing.Point(1, 3);
-            this.btnCalculadora.Name = "btnCalculadora";
-            this.btnCalculadora.Size = new System.Drawing.Size(202, 315);
-            this.btnCalculadora.TabIndex = 0;
-            this.btnCalculadora.Text = "Calculadora";
-            this.btnCalculadora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCalculadora.UseVisualStyleBackColor = false;
-            // 
             // frmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(784, 645);
+            this.ClientSize = new System.Drawing.Size(1045, 799);
             this.Controls.Add(this.flpMenu);
             this.Controls.Add(this.pnlBarraRolagem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMenuPrincipal";
@@ -283,12 +255,6 @@ namespace Calculadoras_CSharp_Jw
             this.pnlBarraRolagem.ResumeLayout(false);
             this.pnlBarraRolagem.PerformLayout();
             this.flpMenu.ResumeLayout(false);
-            this.pnlCalculadora.ResumeLayout(false);
-            this.pnlIMC.ResumeLayout(false);
-            this.pnlCombustivel.ResumeLayout(false);
-            this.pnlFolhaPagamento.ResumeLayout(false);
-            this.pnlTaxaFrequencia.ResumeLayout(false);
-            this.pnlConversor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -298,22 +264,16 @@ namespace Calculadoras_CSharp_Jw
 
         private System.Windows.Forms.Panel pnlBarraRolagem;
         private System.Windows.Forms.FlowLayoutPanel flpMenu;
-        private System.Windows.Forms.Panel pnlCalculadora;
-        private System.Windows.Forms.Panel pnlIMC;
-        private System.Windows.Forms.Panel pnlCombustivel;
-        private System.Windows.Forms.Panel pnlFolhaPagamento;
-        private System.Windows.Forms.Panel pnlTaxaFrequencia;
-        private System.Windows.Forms.Panel pnlConversor;
-        private System.Windows.Forms.Button btnIMC;
-        private System.Windows.Forms.Button btnCombustivel;
-        private System.Windows.Forms.Button btnFolhaPagamento;
-        private System.Windows.Forms.Button btnTaxaFrequencia;
-        private System.Windows.Forms.Button btnConversorMoedas;
-        private System.Windows.Forms.Button btnConsumoAgua;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCalculadora;
+        private System.Windows.Forms.Button btnIMC;
+        private System.Windows.Forms.Button btnCombustivel;
+        private System.Windows.Forms.Button btnFolhaPagamento;
+        private System.Windows.Forms.Button btnTaxaFrequencia;
+        private System.Windows.Forms.Button btnConversor;
+        private System.Windows.Forms.Button btnAgua;
     }
 }
 

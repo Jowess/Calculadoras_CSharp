@@ -18,3 +18,13 @@ C:\Users\john.wmnday\Documents\Visual Studio 2019\Calculadoras_CSharp_Jw\Calcula
 C:\Users\john.wmnday\Documents\Visual Studio 2019\Calculadoras_CSharp_Jw\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.csproj.CoreCompileInputs.cache
 C:\Users\john.wmnday\Documents\Visual Studio 2019\Calculadoras_CSharp_Jw\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.exe
 C:\Users\john.wmnday\Documents\Visual Studio 2019\Calculadoras_CSharp_Jw\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.pdb
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\bin\Debug\Calculadoras_CSharp_Jw.exe.config
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\bin\Debug\Calculadoras_CSharp_Jw.exe
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\bin\Debug\Calculadoras_CSharp_Jw.pdb
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.csproj.AssemblyReference.cache
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.frmMenuPrincipal.resources
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.Properties.Resources.resources
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.csproj.GenerateResource.cache
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.csproj.CoreCompileInputs.cache
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.exe
+C:\Users\Jowess\Documents\Visual Studio 2019\Calculadoras_CSharp\Calculadoras_CSharp_Jw\obj\Debug\Calculadoras_CSharp_Jw.pdb
