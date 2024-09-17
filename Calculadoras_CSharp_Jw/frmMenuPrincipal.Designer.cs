@@ -32,6 +32,8 @@ namespace Calculadoras_CSharp_Jw
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
             this.pnlBarraRolagem = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flpMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCalculadora = new System.Windows.Forms.Button();
             this.btnIMC = new System.Windows.Forms.Button();
@@ -40,11 +42,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnTaxaFrequencia = new System.Windows.Forms.Button();
             this.btnConversor = new System.Windows.Forms.Button();
             this.btnAgua = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlBarraRolagem.SuspendLayout();
-            this.flpMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.flpMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBarraRolagem
@@ -53,10 +53,9 @@ namespace Calculadoras_CSharp_Jw
             this.pnlBarraRolagem.Controls.Add(this.btnSair);
             this.pnlBarraRolagem.Controls.Add(this.pictureBox1);
             this.pnlBarraRolagem.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlBarraRolagem.Location = new System.Drawing.Point(857, 0);
-            this.pnlBarraRolagem.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlBarraRolagem.Location = new System.Drawing.Point(643, 0);
             this.pnlBarraRolagem.Name = "pnlBarraRolagem";
-            this.pnlBarraRolagem.Size = new System.Drawing.Size(188, 799);
+            this.pnlBarraRolagem.Size = new System.Drawing.Size(141, 649);
             this.pnlBarraRolagem.TabIndex = 0;
             this.pnlBarraRolagem.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarraRolagem_Paint);
             // 
@@ -65,12 +64,36 @@ namespace Calculadoras_CSharp_Jw
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(4, 298);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(3, 242);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 25);
+            this.label1.Size = new System.Drawing.Size(137, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Seja Bem Vindo";
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.exit_icon_143601;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSair.Location = new System.Drawing.Point(32, 552);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(78, 49);
+            this.btnSair.TabIndex = 5;
+            this.btnSair.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.ErrorImage = global::Calculadoras_CSharp_Jw.Properties.Resources.Calculator_Icon_icon_icons_com_76430;
+            this.pictureBox1.Image = global::Calculadoras_CSharp_Jw.Properties.Resources.c_letter_letters_alphabet_icon_208972;
+            this.pictureBox1.Location = new System.Drawing.Point(11, 118);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(110, 109);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // flpMenu
             // 
@@ -83,10 +106,9 @@ namespace Calculadoras_CSharp_Jw
             this.flpMenu.Controls.Add(this.btnTaxaFrequencia);
             this.flpMenu.Controls.Add(this.btnConversor);
             this.flpMenu.Controls.Add(this.btnAgua);
-            this.flpMenu.Location = new System.Drawing.Point(13, 46);
-            this.flpMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.flpMenu.Location = new System.Drawing.Point(10, 37);
             this.flpMenu.Name = "flpMenu";
-            this.flpMenu.Size = new System.Drawing.Size(823, 717);
+            this.flpMenu.Size = new System.Drawing.Size(617, 583);
             this.flpMenu.TabIndex = 1;
             this.flpMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -98,10 +120,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnCalculadora.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculadora.ForeColor = System.Drawing.Color.White;
-            this.btnCalculadora.Location = new System.Drawing.Point(4, 4);
-            this.btnCalculadora.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCalculadora.Location = new System.Drawing.Point(3, 3);
             this.btnCalculadora.Name = "btnCalculadora";
-            this.btnCalculadora.Size = new System.Drawing.Size(256, 311);
+            this.btnCalculadora.Size = new System.Drawing.Size(192, 253);
             this.btnCalculadora.TabIndex = 5;
             this.btnCalculadora.Text = "Calculadora";
             this.btnCalculadora.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -115,10 +136,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnIMC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIMC.ForeColor = System.Drawing.Color.White;
-            this.btnIMC.Location = new System.Drawing.Point(268, 4);
-            this.btnIMC.Margin = new System.Windows.Forms.Padding(4);
+            this.btnIMC.Location = new System.Drawing.Point(201, 3);
             this.btnIMC.Name = "btnIMC";
-            this.btnIMC.Size = new System.Drawing.Size(256, 306);
+            this.btnIMC.Size = new System.Drawing.Size(192, 249);
             this.btnIMC.TabIndex = 6;
             this.btnIMC.Text = "IMC";
             this.btnIMC.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -132,10 +152,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnCombustivel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCombustivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCombustivel.ForeColor = System.Drawing.Color.White;
-            this.btnCombustivel.Location = new System.Drawing.Point(532, 4);
-            this.btnCombustivel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCombustivel.Location = new System.Drawing.Point(399, 3);
             this.btnCombustivel.Name = "btnCombustivel";
-            this.btnCombustivel.Size = new System.Drawing.Size(260, 306);
+            this.btnCombustivel.Size = new System.Drawing.Size(195, 249);
             this.btnCombustivel.TabIndex = 7;
             this.btnCombustivel.Text = "Combustivel";
             this.btnCombustivel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -149,14 +168,14 @@ namespace Calculadoras_CSharp_Jw
             this.btnFolhaPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFolhaPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFolhaPagamento.ForeColor = System.Drawing.Color.White;
-            this.btnFolhaPagamento.Location = new System.Drawing.Point(4, 323);
-            this.btnFolhaPagamento.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFolhaPagamento.Location = new System.Drawing.Point(3, 262);
             this.btnFolhaPagamento.Name = "btnFolhaPagamento";
-            this.btnFolhaPagamento.Size = new System.Drawing.Size(256, 311);
+            this.btnFolhaPagamento.Size = new System.Drawing.Size(192, 253);
             this.btnFolhaPagamento.TabIndex = 8;
             this.btnFolhaPagamento.Text = "Folha de Pagamento";
             this.btnFolhaPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFolhaPagamento.UseVisualStyleBackColor = false;
+            this.btnFolhaPagamento.Click += new System.EventHandler(this.btnFolhaPagamento_Click);
             // 
             // btnTaxaFrequencia
             // 
@@ -166,10 +185,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnTaxaFrequencia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTaxaFrequencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaxaFrequencia.ForeColor = System.Drawing.Color.White;
-            this.btnTaxaFrequencia.Location = new System.Drawing.Point(268, 323);
-            this.btnTaxaFrequencia.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTaxaFrequencia.Location = new System.Drawing.Point(201, 262);
             this.btnTaxaFrequencia.Name = "btnTaxaFrequencia";
-            this.btnTaxaFrequencia.Size = new System.Drawing.Size(256, 311);
+            this.btnTaxaFrequencia.Size = new System.Drawing.Size(192, 253);
             this.btnTaxaFrequencia.TabIndex = 9;
             this.btnTaxaFrequencia.Text = "Taxa de Frequência";
             this.btnTaxaFrequencia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -183,10 +201,9 @@ namespace Calculadoras_CSharp_Jw
             this.btnConversor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnConversor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConversor.ForeColor = System.Drawing.Color.White;
-            this.btnConversor.Location = new System.Drawing.Point(532, 323);
-            this.btnConversor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConversor.Location = new System.Drawing.Point(399, 262);
             this.btnConversor.Name = "btnConversor";
-            this.btnConversor.Size = new System.Drawing.Size(260, 311);
+            this.btnConversor.Size = new System.Drawing.Size(195, 253);
             this.btnConversor.TabIndex = 10;
             this.btnConversor.Text = "Conversor de Moeda";
             this.btnConversor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -200,53 +217,24 @@ namespace Calculadoras_CSharp_Jw
             this.btnAgua.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgua.ForeColor = System.Drawing.Color.White;
-            this.btnAgua.Location = new System.Drawing.Point(4, 642);
-            this.btnAgua.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgua.Location = new System.Drawing.Point(3, 521);
             this.btnAgua.Name = "btnAgua";
-            this.btnAgua.Size = new System.Drawing.Size(256, 311);
+            this.btnAgua.Size = new System.Drawing.Size(192, 253);
             this.btnAgua.TabIndex = 11;
             this.btnAgua.Text = "Folha de Pagamento";
             this.btnAgua.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgua.UseVisualStyleBackColor = false;
             // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.White;
-            this.btnSair.BackgroundImage = global::Calculadoras_CSharp_Jw.Properties.Resources.exit_icon_143601;
-            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSair.Location = new System.Drawing.Point(43, 680);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(104, 60);
-            this.btnSair.TabIndex = 5;
-            this.btnSair.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.ErrorImage = global::Calculadoras_CSharp_Jw.Properties.Resources.Calculator_Icon_icon_icons_com_76430;
-            this.pictureBox1.Image = global::Calculadoras_CSharp_Jw.Properties.Resources.c_letter_letters_alphabet_icon_208972;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 145);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // frmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1045, 799);
+            this.ClientSize = new System.Drawing.Size(784, 649);
             this.Controls.Add(this.flpMenu);
             this.Controls.Add(this.pnlBarraRolagem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMenuPrincipal";
@@ -254,8 +242,8 @@ namespace Calculadoras_CSharp_Jw
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlBarraRolagem.ResumeLayout(false);
             this.pnlBarraRolagem.PerformLayout();
-            this.flpMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.flpMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

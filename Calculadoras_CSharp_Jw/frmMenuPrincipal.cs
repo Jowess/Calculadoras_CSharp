@@ -71,5 +71,10 @@ namespace Calculadoras_CSharp_Jw
         {
 
         }
+
+        private void btnFolhaPagamento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

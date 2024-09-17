@@ -16,7 +16,7 @@ namespace Calculadoras_CSharp_Jw
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenuPrincipal());
+            Application.Run(new frmFolhaPagamento());
         }
     }
 }
